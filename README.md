@@ -2,9 +2,9 @@
 setup for metabase in aws elastic beanstalk
 
 ## Platform
-Choose Docker v1 as the beanstalk platform.
+Choose Docker as the beanstalk platform.
 
-Once you setup the wordpress environment, add the following environment variables.
+## Once you setup the metabase environment, add the following environment variables.
 MB_DB_DBNAME: "metabase"
 MB_DB_HOST: "abc.database.com"
 MB_DB_PASS: "mypassword"
